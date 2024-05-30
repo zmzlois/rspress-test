@@ -1,0 +1,60 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  /* Modify theme color */
+  --rp-c-bg: #e9e9e9;
+  --rp-c-header: #212121;
+  --rp-c-text: #2d2d2d;
+  --rp-c-brand: #1368cf;
+  --rp-c-brand-dark: #374dad;
+  --rp-c-brand-darker: #041d39;
+  --rp-c-brand-light: #328ec7;
+  --rp-c-brand-lighter: #5ac2f2;
+  /* Modify the width of the left sidebar */
+  --rp-sidebar-width: 280px;
+  /* Modify the width of the right outline column */
+  --rp-aside-width: 256px;
+  /* Modify the background of the code block title */
+  --rp-code-title-bg: rgba(61, 130, 250, 0.15);
+  /* Modify the background of the code block content */
+  --rp-code-block-bg: rgba(72, 70, 214, 0.05);
+}
+
+:root.dark {
+  /* Modify theme color */
+  --rp-c-bg: #030303;
+  --rp-c-header: #e9e9e9;
+  --rp-c-text: #d1d1d1;
+  --rp-c-brand: #1368cf;
+  --rp-c-brand-dark: #374dad;
+  --rp-c-brand-darker: #041d39;
+  --rp-c-brand-light: #328ec7;
+  --rp-c-brand-lighter: #5ac2f2;
+  /* Modify the width of the left sidebar */
+  --rp-sidebar-width: 280px;
+  /* Modify the width of the right outline column */
+  --rp-aside-width: 256px;
+  /* Modify the background of the code block title */
+  --rp-code-title-bg: rgba(61, 130, 250, 0.15);
+  /* Modify the background of the code block content */
+  --rp-code-block-bg: rgba(72, 70, 214, 0.05);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--rp-c-header);
+}
+
+p {
+  color: var(--rp-c-header);
+}
+
+a > span {
+  color: var(--rp-c-brand);
+}
