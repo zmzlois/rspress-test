@@ -51,8 +51,14 @@ h6 {
   color: var(--rp-c-header);
 }
 
+h3 {
+  font-weight: 500;
+}
+
 p {
   color: var(--rp-c-header);
+  font-size: medium;
+  font-weight: 300;
 }
 
 a > span {
